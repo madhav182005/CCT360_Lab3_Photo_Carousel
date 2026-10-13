@@ -76,6 +76,7 @@ button:hover {
     background-color: #5d407f;
 }
 
+/* Disabled previous and next button for better user experience*/
 button:disabled {
     background-color: #b7a8c7;
     cursor: default;
