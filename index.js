@@ -159,7 +159,7 @@ function updateCarousel() {
 
     }
 
-    //Slide number
+    // Update the slide number as user navigates
     slideNumber.innerHTML = currentSlide + " of 3";
 
     //Disable buttons at the beginning and end
