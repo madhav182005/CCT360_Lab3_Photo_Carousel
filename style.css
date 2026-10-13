@@ -1,1 +1,79 @@
-jnljnbug
+/* CCT360 Lab - The Power of Sequencing */
+/* The Coffee Effect */
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f7f3ed;
+    color: #2f2f2f;
+
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #76549f;
+    color: white;
+
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 10px;
+
+    font-size: 18px;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 30px auto;
+}
+
+/* Story controls */
+#controls {
+    margin-bottom: 35px;
+}
+
+#controls h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+
+button {
+    background-color: #76549f;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px 22px;
+    margin: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d407f;
+}
+
