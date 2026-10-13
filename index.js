@@ -21,3 +21,30 @@ let caption2 = document.getElementById("caption2");
 let caption3 = document.getElementById("caption3");
 
 
+/* Story 1 - Coffee Saves the Day */
+function showPositiveStory() {     
+
+    storyTitle.innerHTML = "Coffee Saves the Day";
+
+    storyDescription.innerHTML =
+        "A tired student gets some coffee and finds the energy to finish his work.";
+
+    image1.src = "images/tired.jpg";
+    image2.src = "images/coffee.jpg";
+    image3.src = "images/productive.jpg";
+
+    image1.alt = "A tired student trying to work";
+    image2.alt = "A cup of coffee on the student's desk";
+    image3.alt = "The student working productively";
+
+    caption1.innerHTML =
+        "Running on Empty - The work needs to get done, but the energy is gone.";
+
+    caption2.innerHTML =
+        "Quick Coffee Break - A little caffeine might help.";
+
+    caption3.innerHTML =
+        "Back to Work - Energy restored. Time to finish the assignment.";
+
+}
+
